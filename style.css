@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin:0;
+  padding:0;                      
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style:none;
+}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2CB3F3;
+}
+h1{ 
+    text-align: center;
+}
+h2{
+    font-weight: lighter;
+    text-align: center;
+} 
+.capuz{
+    width:60%;
+    height:50%;
+    background-color:#FFFFFF;
+    border-radius: 25% 25% 0% 0%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index:-2;
+}  
+ .cabeça{
+    width: 50%;
+    height:40%;   
+    border-radius: 80%;
+    background-color: #FFE1C9;
+    position:absolute;
+    z-index:-2;
+    top: 25%; 
+    left: 25%;
+ }
+ .olho1{
+    width:5%;
+    height:5%;
+    border-radius: 60%;
+    background-color:black;
+    position: absolute;
+    top:35%;
+    left:38%;
+ }  
+.olho2{
+    width:5%;
+    height:5%;
+    border-radius: 60%;
+    background-color:black;
+    position: absolute;
+    top:35%;
+    right:38%;
+}
+.login{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding-top: 30vh;
+    margin-bottom: 20vh;
+}
+.button{
+    margin-bottom: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
